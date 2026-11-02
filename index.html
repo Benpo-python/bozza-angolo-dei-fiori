@@ -3,304 +3,716 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
 <title>L'Angolo dei Fiori — Fiorista a Palermo aperto 24 ore su 24, consegna a domicilio</title>
-<meta name="description" content="L'Angolo dei Fiori, fiorista in Via Giacomo Leopardi 23 a Palermo, aperto 24 ore su 24: bouquet, fiori freschi, piante, composizioni, allestimenti per matrimoni e addobbi funebri. Consegna a domicilio, ordini su WhatsApp.">
-<meta name="robots" content="noindex">
-<meta name="theme-color" content="#3E5B4A">
+<meta name="description" content="L'Angolo dei Fiori, fiorista in Via Giacomo Leopardi 23 a Palermo, aperto 24 ore su 24 da più di 50 anni: bouquet, piante, fiori per matrimoni e addobbi funebri, con consegna a domicilio. Chiama o scrivi su WhatsApp al 388 996 6614.">
+<meta name="theme-color" content="#121B22">
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/Inter-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="img/chiosco.jpg" as="image">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Florist","name":"L'Angolo dei Fiori","description":"Fiorista a Palermo aperto 24 ore su 24, con consegna a domicilio","telephone":"+39 388 9966614","email":"salvoprocida594@gmail.com","vatID":"IT06701820828","address":{"@type":"PostalAddress","streetAddress":"Via Giacomo Leopardi 23","postalCode":"90144","addressLocality":"Palermo","addressRegion":"PA","addressCountry":"IT"},"openingHours":"Mo-Su 00:00-23:59","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"181"}}
+{"@context":"https://schema.org","@type":"Florist","name":"L'Angolo dei Fiori","description":"Fiorista a Palermo aperto 24 ore su 24 da più di 50 anni: bouquet, piante, fiori per matrimoni e addobbi funebri, con consegna a domicilio.","image":"img/chiosco.jpg","telephone":"+39 388 9966614","email":"salvoprocida594@gmail.com","vatID":"IT06701820828","address":{"@type":"PostalAddress","streetAddress":"Via Giacomo Leopardi 23","postalCode":"90144","addressLocality":"Palermo","addressRegion":"PA","addressCountry":"IT"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"181","bestRating":"5"}}
 </script>
+<script>document.documentElement.className="js"</script>
 <style>
-  @font-face{font-family:"Newsreader";src:url("fonts/newsreader.woff2") format("woff2");font-weight:400 700;font-display:swap}
-  @font-face{font-family:"Newsreader";src:url("fonts/newsreader-italic.woff2") format("woff2");font-weight:400 700;font-style:italic;font-display:swap}
-  @font-face{font-family:"Inter";src:url("fonts/Inter-var.woff2") format("woff2");font-weight:400 700;font-display:swap}
-  :root{
-    --salvia:#3E5B4A; --salvia-scuro:#2C4436; --salvia-chiaro:#DCE6DD; --giallo:#F2C230; --giallo-chiaro:#FBEFC4;
-    --rosa:#E9A7B2; --crema:#FBF8F2; --carta:#F3EDE2; --nero:#1E241F; --grigio:#5E665F; --linea:#E5DED1; --wa:#1FAF54;
-    --t:"Newsreader",Georgia,serif; --b:"Inter",system-ui,sans-serif;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  html{scroll-behavior:smooth}
-  body{font-family:var(--b);color:var(--nero);background:var(--crema);line-height:1.6;-webkit-font-smoothing:antialiased}
-  a{color:inherit}
-  img,svg{max-width:100%;display:block}
-  .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
-  h1,h2,h3{font-family:var(--t);font-weight:500;line-height:1.08;letter-spacing:-.01em}
-  h1 em,h2 em{font-style:italic;color:var(--salvia)}
-  h2{font-size:clamp(2.1rem,4.8vw,3.3rem);margin-bottom:.45em}
-  h3{font-size:1.45rem}
-  .eyebrow{font-size:.74rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--salvia);margin-bottom:1em;display:flex;align-items:center;gap:.6em}
-  .eyebrow::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--giallo)}
-  .sub{color:var(--grigio);font-size:1.08rem;max-width:60ch}
-  section{padding:96px 0}
-  .btn{display:inline-flex;align-items:center;justify-content:center;gap:.55em;padding:1em 1.5em;border-radius:999px;font-weight:700;font-size:1rem;text-decoration:none;white-space:nowrap;border:1.5px solid transparent;transition:transform .15s,background .15s}
-  .btn:hover{transform:translateY(-2px)}
-  .btn svg{width:20px;height:20px;flex:none}
-  .btn-wa{background:var(--wa);color:#fff;box-shadow:0 12px 26px -12px rgba(31,175,84,.7)}
-  .btn-wa:hover{background:#19994A}
-  .btn-linea{border-color:var(--salvia);color:var(--salvia)}
-  .btn-linea:hover{background:var(--salvia);color:#fff}
-  .btn-giallo{background:var(--giallo);color:var(--nero)}
+@font-face{font-family:"Newsreader";src:url(fonts/newsreader.woff2) format("woff2");font-weight:400 600;font-style:normal;font-display:swap}
+@font-face{font-family:"Newsreader";src:url(fonts/newsreader-italic.woff2) format("woff2");font-weight:400 600;font-style:italic;font-display:swap}
+@font-face{font-family:"Inter";src:url(fonts/Inter-var.woff2) format("woff2");font-weight:400 700;font-style:normal;font-display:swap}
 
-  nav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--linea)}
-  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:72px;gap:16px}
-  .logo img{height:62px;width:auto}
-  @media(max-width:500px){.logo img{height:48px}}
-  nav ul{display:flex;gap:1.6em;list-style:none}
-  nav ul a{text-decoration:none;font-weight:600;font-size:.92rem;color:var(--grigio)}
-  nav ul a:hover{color:var(--salvia)}
-  .nav-wa{padding:.62em 1.05em;font-size:.92rem}
-  @media(max-width:900px){nav ul{display:none}}
+/* palette presa dalle foto: la notte del chiosco, l'insegna gialla, le gerbere fucsia, il verde del logo */
+:root{
+  --carta:#FAF6EF;--carta-2:#F1EADD;--ink:#1B2126;--mut:#5D6168;--linea:rgba(27,33,38,.14);
+  --fucsia:#B3305E;--fucsia-d:#8E2149;--insegna:#EFC63A;--insegna-c:#F7DD7E;--foglia:#3F6B45;--foglia-c:#E3ECDF;--notte:#121B22;
+  --wa:#1E9E50;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;--sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --pad:clamp(20px,5vw,56px);--sez:clamp(76px,10vw,136px);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:84px}
+body{font-family:var(--sans);font-size:16.5px;line-height:1.62;color:var(--ink);background:var(--carta);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+svg{display:block}
+a{color:inherit}
+button{font:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:450;line-height:1.06;letter-spacing:-.018em}
+h2{font-size:clamp(2.2rem,1.4rem + 3.2vw,3.8rem);max-width:17ch}
+h2 em,h1 em{font-style:italic;color:var(--fucsia)}
+.scuro h2 em{color:var(--insegna-c)}
+:focus-visible{outline:3px solid var(--fucsia);outline-offset:3px}
+.scuro :focus-visible,.hero :focus-visible{outline-color:var(--insegna)}
+.wrap{max-width:1240px;margin:0 auto;padding:0 var(--pad)}
+.salta{position:absolute;left:12px;top:-60px;background:var(--fucsia);color:#fff;padding:12px 18px;z-index:50}
+.salta:focus{top:12px}
+.sez{padding:var(--sez) 0}
+.occhiello{font:600 11.5px/1.3 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--fucsia);display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.occhiello::before{content:"";width:30px;height:1px;background:currentColor;flex:none;opacity:.7}
+.scuro .occhiello{color:var(--insegna-c)}
+.intro{font-size:clamp(1.04rem,.98rem + .3vw,1.2rem);color:var(--mut);max-width:34em;margin-top:18px}
+.scuro .intro{color:rgba(250,246,239,.78)}
 
-  /* hero */
-  .hero{padding:56px 0 80px;background:radial-gradient(700px 420px at 90% 10%,var(--giallo-chiaro),transparent 70%),radial-gradient(600px 400px at 0% 100%,#F6DDE2,transparent 65%),var(--crema)}
-  .hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:center}
-  .badge-24{display:inline-flex;align-items:center;gap:.55em;background:var(--salvia);color:#fff;padding:.5em 1em;border-radius:999px;font-size:.86rem;font-weight:700;margin-bottom:22px}
-  .badge-24 .p{width:9px;height:9px;border-radius:50%;background:#7CF0A5;animation:pulsa 2s infinite}
-  @keyframes pulsa{0%{box-shadow:0 0 0 0 rgba(124,240,165,.7)}70%{box-shadow:0 0 0 10px rgba(124,240,165,0)}100%{box-shadow:0 0 0 0 rgba(124,240,165,0)}}
-  .hero h1{font-size:clamp(2.8rem,6.6vw,5rem);margin-bottom:.35em}
-  .hero .lead{font-size:1.15rem;color:var(--grigio);max-width:50ch;margin-bottom:30px}
-  .hero-btns{display:flex;gap:12px;flex-wrap:wrap}
-  .stelle{margin-top:28px;display:flex;align-items:center;gap:14px;font-size:.92rem;color:var(--grigio)}
-  .stelle b{font-family:var(--t);font-size:2rem;color:var(--nero);line-height:1}
-  .stelle i{font-style:normal;color:#E8A800;letter-spacing:.1em;font-size:1.05rem}
-  .foto-hero{position:relative}
-  .foto-hero .main{border-radius:200px 200px 20px 20px;overflow:hidden;aspect-ratio:4/5;box-shadow:0 40px 70px -35px rgba(44,68,54,.55)}
-  .foto-hero .main img{width:100%;height:100%;object-fit:cover}
-  .foto-hero .mini{position:absolute;left:-34px;bottom:34px;width:42%;border-radius:16px;overflow:hidden;border:6px solid #fff;box-shadow:0 20px 40px -20px rgba(0,0,0,.35);aspect-ratio:3/4}
-  .foto-hero .mini img{width:100%;height:100%;object-fit:cover}
-  .foto-hero .tag{position:absolute;right:-10px;top:30px;background:#fff;border-radius:14px;padding:12px 16px;box-shadow:0 16px 30px -18px rgba(0,0,0,.35);font-size:.85rem;line-height:1.3}
-  .foto-hero .tag b{display:block;font-family:var(--t);font-size:1.5rem;color:var(--salvia)}
-  @media(max-width:900px){.hero .wrap{grid-template-columns:1fr}.foto-hero{max-width:420px;margin:0 auto}.foto-hero .mini{left:-10px}.foto-hero .tag{right:0}}
+/* pulsanti */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:52px;padding:0 26px;border:1px solid var(--fucsia);background:var(--fucsia);color:#fff;font:600 14.5px/1.2 var(--sans);letter-spacing:.01em;text-decoration:none;border-radius:999px;cursor:pointer;transition:background .25s,color .25s,border-color .25s,transform .25s}
+.btn:hover{background:var(--fucsia-d);border-color:var(--fucsia-d)}
+.btn:active{transform:translateY(1px)}
+.btn.vuoto{background:transparent;color:var(--ink);border-color:rgba(27,33,38,.35)}
+.btn.vuoto:hover{border-color:var(--ink);background:rgba(27,33,38,.04)}
+.btn.giallo{background:var(--insegna);border-color:var(--insegna);color:var(--notte)}
+.btn.giallo:hover{background:var(--insegna-c);border-color:var(--insegna-c)}
+.btn.wa{background:var(--wa);border-color:var(--wa)}
+.btn.wa:hover{background:#178741;border-color:#178741}
+.btn.vetro{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.55);color:#fff;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.btn.vetro:hover{background:rgba(255,255,255,.2);border-color:#fff}
+.btn svg{width:19px;height:19px;flex:none}
 
-  .strip{background:var(--salvia);color:#fff}
-  .strip .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
-  .strip div{padding:24px 20px;border-right:1px solid rgba(255,255,255,.15)}
-  .strip div:last-child{border-right:0}
-  .strip b{display:block;font-family:var(--t);font-size:1.35rem;font-weight:500}
-  .strip span{font-size:.88rem;color:#CFE0D3}
-  @media(max-width:860px){.strip .wrap{grid-template-columns:1fr 1fr}.strip div:nth-child(2){border-right:0}.strip div:nth-child(-n+2){border-bottom:1px solid rgba(255,255,255,.15)}}
+/* fascia bozza */
+.bnw-fascia{background:#15161A;color:#fff;font:400 13.5px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;text-align:center;padding:9px 16px}
+.bnw-fascia a{color:#fff;font-weight:600;text-decoration:underline;text-underline-offset:2px;display:inline-block;padding:12px 4px;margin:-12px 0}
 
-  .grid{display:grid;gap:20px}
-  .servizi{grid-template-columns:repeat(3,1fr);margin-top:46px}
-  .card{background:#fff;border:1px solid var(--linea);border-radius:22px;padding:30px 28px;transition:transform .2s,box-shadow .2s}
-  .card:hover{transform:translateY(-4px);box-shadow:0 26px 44px -28px rgba(44,68,54,.5)}
-  .card .ic{width:52px;height:52px;border-radius:50%;background:var(--giallo-chiaro);display:grid;place-items:center;margin-bottom:18px}
-  .card .ic svg{width:26px;height:26px;stroke:var(--salvia);fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
-  .card h3{margin-bottom:.35em}
-  .card p{color:var(--grigio);font-size:.96rem}
-  @media(max-width:960px){.servizi{grid-template-columns:1fr 1fr}}
-  @media(max-width:600px){.servizi{grid-template-columns:1fr}}
+/* barra */
+.barra{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--linea)}
+.barra .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:70px}
+.logo{display:flex;align-items:center;min-height:44px;text-decoration:none}
+.logo img{height:52px;width:auto}
+.menu{display:none;gap:28px;list-style:none}
+.menu a{font-size:.93rem;text-decoration:none;display:inline-flex;align-items:center;min-height:44px;position:relative}
+.menu a::after{content:"";position:absolute;left:0;right:0;bottom:9px;height:1px;background:var(--fucsia);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.menu a:hover::after{transform:scaleX(1)}
+.barra .btn{min-height:44px;padding:0 20px;font-size:13.5px}
 
-  .matrimoni{background:var(--carta)}
-  .matrimoni .wrap{display:grid;grid-template-columns:.95fr 1.05fr;gap:56px;align-items:center}
-  .mosaico{display:grid;grid-template-columns:1.2fr .8fr;grid-template-rows:1fr 1fr;gap:12px;height:520px}
-  .mosaico img{width:100%;height:100%;object-fit:cover;border-radius:18px}
-  .mosaico img:first-child{grid-row:1/3}
-  .matrimoni ul{list-style:none;display:grid;gap:12px;margin:22px 0 30px}
-  .matrimoni li{display:flex;gap:12px;color:var(--grigio)}
-  .matrimoni li::before{content:"✿";color:var(--rosa);font-size:1.1rem;line-height:1.4}
-  @media(max-width:900px){.matrimoni .wrap{grid-template-columns:1fr}.mosaico{height:420px}}
+/* hero */
+.hero{position:relative;min-height:calc(100svh - 108px);display:flex;align-items:flex-end;color:#fff;background:var(--notte);overflow:hidden}
+.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:60% 64%;transform:scale(1.05);animation:respiro 18s ease-out forwards}
+@keyframes respiro{to{transform:scale(1)}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,18,23,.4) 0,rgba(12,18,23,.15) 32%,rgba(12,18,23,.9) 100%),linear-gradient(90deg,rgba(12,18,23,.7) 0,rgba(12,18,23,0) 72%)}
+.hero .wrap{position:relative;z-index:1;width:100%;padding-top:150px;padding-bottom:clamp(36px,6vw,72px)}
+.hero .occhiello{color:var(--insegna-c)}
+.hero h1{font-size:clamp(2.9rem,1.2rem + 6.4vw,6.4rem);line-height:.98;letter-spacing:-.028em;max-width:11ch}
+.hero h1 em{color:var(--insegna)}
+.hero .sotto{font-size:clamp(1.05rem,.98rem + .35vw,1.25rem);color:rgba(255,255,255,.88);max-width:31em;margin-top:20px}
+.azioni{display:flex;flex-wrap:wrap;gap:10px 12px;margin-top:28px}
+.sotto-hero{display:flex;flex-wrap:wrap;align-items:center;gap:12px 22px;margin-top:26px}
+.stato{display:inline-flex;align-items:center;gap:10px;font-size:.93rem;color:rgba(255,255,255,.88);background:rgba(12,18,23,.5);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.16);padding:9px 16px 9px 13px;border-radius:999px}
+.punto{width:9px;height:9px;border-radius:50%;background:#9aa0a6;flex:none}
+.stato.aperto .punto{background:#6fd08c;box-shadow:0 0 0 0 rgba(111,208,140,.6);animation:pulsa 2.2s infinite}
+@keyframes pulsa{70%{box-shadow:0 0 0 9px rgba(111,208,140,0)}100%{box-shadow:0 0 0 0 rgba(111,208,140,0)}}
+.stato b{color:#fff;font-weight:600}
+.voto-mini{display:inline-flex;align-items:center;gap:10px;font-size:.9rem;color:rgba(255,255,255,.85)}
+.voto-mini b{font-family:var(--serif);font-size:1.5rem;font-weight:450;color:#fff;line-height:1}
+.voto-mini .stelle{color:var(--insegna)}
 
-  .piante{grid-template-columns:repeat(4,1fr);margin-top:42px}
-  .pianta{background:#fff;border-radius:20px;overflow:hidden;border:1px solid var(--linea)}
-  .pianta img{width:100%;aspect-ratio:1/1;object-fit:contain;background:#fff;padding:10px}
-  .pianta div{padding:14px 18px 18px}
-  .pianta b{font-family:var(--t);font-size:1.25rem;font-weight:500}
-  .pianta span{display:block;font-size:.88rem;color:var(--grigio)}
-  @media(max-width:860px){.piante{grid-template-columns:1fr 1fr}}
+/* stelle */
+.stelle{display:flex;gap:2px;color:#D9A21B}
+.stelle svg{width:16px;height:16px}
 
-  .ordina{background:var(--salvia);color:#fff;border-radius:28px;padding:60px 56px;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
-  .ordina h2 em{color:var(--giallo)}
-  .ordina .sub{color:#D6E4D9}
-  .passi{list-style:none;counter-reset:p;display:grid;gap:18px}
-  .passi li{counter-increment:p;display:flex;gap:16px;align-items:flex-start}
-  .passi li::before{content:counter(p);flex:none;width:38px;height:38px;border-radius:50%;background:var(--giallo);color:var(--nero);font-weight:800;display:grid;place-items:center}
-  .passi b{display:block;font-size:1.05rem}
-  .passi span{color:#D6E4D9;font-size:.95rem}
-  @media(max-width:860px){.ordina{grid-template-columns:1fr;padding:44px 26px}}
+/* fascia valori */
+.valori{border-bottom:1px solid var(--linea);background:#fff}
+.valori ul{list-style:none;display:grid}
+.valori li{display:flex;gap:16px;align-items:flex-start;padding:24px 0}
+.valori li+li{border-top:1px solid var(--linea)}
+.valori svg{width:34px;height:34px;color:var(--fucsia);flex:none;margin-top:2px}
+.valori b{font-family:var(--serif);font-weight:450;font-size:1.3rem;display:block;line-height:1.2}
+.valori span{color:var(--mut);font-size:.95rem}
 
-  .recensioni{grid-template-columns:repeat(3,1fr);margin-top:40px}
-  .rec{background:#fff;border-radius:22px;padding:30px 28px;border:1px solid var(--linea);display:flex;flex-direction:column;gap:14px}
-  .rec .st{color:#E8A800;letter-spacing:.1em}
-  .rec blockquote{font-family:var(--t);font-size:1.3rem;line-height:1.35;font-style:italic}
-  .rec figcaption{margin-top:auto;font-size:.9rem;color:var(--grigio)}
-  .voto{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
-  .voto b{font-family:var(--t);font-size:3.4rem;color:var(--salvia);line-height:1;font-weight:500}
-  @media(max-width:860px){.recensioni{grid-template-columns:1fr}}
+/* occasioni a schede */
+.schede{display:flex;gap:6px;overflow-x:auto;margin:clamp(34px,5vw,54px) calc(var(--pad)*-1) 0;padding:0 var(--pad) 2px;scrollbar-width:none;border-bottom:1px solid var(--linea)}
+.schede::-webkit-scrollbar{display:none}
+.schede button{flex:none;display:inline-flex;align-items:center;gap:8px;font:500 15px/1 var(--sans);color:var(--mut);background:none;border:0;border-bottom:2px solid transparent;padding:0 14px;min-height:54px;cursor:pointer;margin-bottom:-1px;transition:color .2s,border-color .2s}
+.schede button svg{width:20px;height:20px;opacity:.75}
+.schede button:hover{color:var(--ink)}
+.schede button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--fucsia);font-weight:600}
+.schede button[aria-selected="true"] svg{color:var(--fucsia);opacity:1}
+.pannello{padding-top:clamp(28px,4vw,44px)}
+.pannello[hidden]{display:none}
+.occ{display:grid;gap:clamp(28px,4vw,56px);align-items:start}
+.occ-foto{display:grid;grid-template-columns:1.25fr 1fr;gap:8px}
+.occ-foto img{width:100%;height:100%;object-fit:cover;border-radius:6px;aspect-ratio:3/4}
+.occ-foto.una{grid-template-columns:1fr}
+.occ-foto.una img{aspect-ratio:4/3}
+.occ-foto.bianco img{object-fit:contain;background:#fff;border:1px solid var(--linea);padding:8px;aspect-ratio:1}
+.occ h3{font-size:clamp(1.7rem,1.3rem + 1.4vw,2.4rem)}
+.occ h3 em{font-style:italic;color:var(--fucsia)}
+.occ .testo>p{color:var(--mut);margin-top:12px;max-width:36em}
+.voci{list-style:none;margin-top:22px;border-top:1px solid var(--linea)}
+.voci li{display:flex;gap:14px;padding:14px 0;border-bottom:1px dashed rgba(27,33,38,.2)}
+.voci li svg{width:20px;height:20px;color:var(--foglia);flex:none;margin-top:3px}
+.voci b{font-weight:600;display:block}
+.voci span{color:var(--mut);font-size:.94rem}
+.occ .azioni{margin-top:26px}
+.lutto{background:var(--notte);color:var(--carta);border-radius:6px;padding:clamp(28px,4vw,44px);position:relative;overflow:hidden}
+.lutto::before{content:"";position:absolute;inset:10px;border:1px solid rgba(247,221,126,.22);border-radius:3px;pointer-events:none}
+.lutto p{font-family:var(--serif);font-style:italic;font-size:clamp(1.35rem,1.1rem + 1vw,1.8rem);line-height:1.3;position:relative}
+.lutto span{display:block;margin-top:14px;font-size:.92rem;color:rgba(250,246,239,.7);position:relative}
+.lutto svg{width:40px;height:40px;color:var(--insegna-c);margin-bottom:18px;position:relative}
+.passi{list-style:none;counter-reset:p;display:grid;gap:4px;margin-top:22px}
+.passi li{counter-increment:p;display:flex;gap:16px;align-items:flex-start;padding:14px 0;border-bottom:1px dashed rgba(27,33,38,.2)}
+.passi li::before{content:counter(p);flex:none;width:36px;height:36px;border-radius:50%;background:var(--insegna);color:var(--notte);font:700 15px/1 var(--sans);display:grid;place-items:center}
+.passi b{display:block;font-weight:600}
+.passi span{color:var(--mut);font-size:.94rem}
 
-  .dove .wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
-  .dove img{border-radius:24px;width:100%;aspect-ratio:1/1;object-fit:cover}
-  .riga{display:flex;gap:16px;padding:16px 0;border-bottom:1px solid var(--linea)}
-  .riga svg{width:24px;height:24px;flex:none;stroke:var(--salvia);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-  .riga b{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;color:var(--grigio);margin-bottom:2px}
-  .riga a{text-decoration:none;font-weight:600}
-  @media(max-width:860px){.dove .wrap{grid-template-columns:1fr}}
+/* il negozio */
+.negozio{background:var(--carta-2)}
+.negozio .wrap{display:grid;gap:clamp(36px,6vw,80px);align-items:center}
+.foto-doppia{position:relative;padding-bottom:16%}
+.foto-doppia figure:first-child img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:4px}
+.foto-doppia figure:last-child{position:absolute;right:-3%;bottom:0;width:42%;border:8px solid var(--carta-2);border-radius:6px;overflow:hidden;box-shadow:0 24px 50px -24px rgba(27,33,38,.5)}
+.foto-doppia figure:last-child img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.numeri{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px;padding-top:26px;border-top:1px solid var(--linea)}
+.numeri b{font-family:var(--serif);font-weight:450;font-size:clamp(2rem,1.5rem + 1.6vw,2.8rem);line-height:1;display:block;color:var(--fucsia)}
+.numeri span{font-size:.86rem;color:var(--mut);display:block;margin-top:6px;line-height:1.35}
 
-  footer{background:var(--salvia-scuro);color:#C3D3C7;padding:36px 0 110px;font-size:.88rem}
-  footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
-  footer b{color:#fff}
+/* galleria */
+.galleria{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:clamp(34px,5vw,54px)}
+.galleria figure{position:relative;overflow:hidden;border-radius:4px;background:var(--carta-2)}
+.galleria img{width:100%;height:100%;object-fit:cover;aspect-ratio:1;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.galleria figure:hover img{transform:scale(1.04)}
+.galleria figure:first-child{grid-column:span 2}
+.galleria figure:first-child img{aspect-ratio:3/2}
+.galleria figcaption{position:absolute;left:10px;bottom:10px;background:rgba(250,246,239,.93);font-size:.78rem;font-weight:500;padding:5px 10px;border-radius:999px}
 
-  .barra{position:fixed;left:0;right:0;bottom:0;z-index:30;display:none;grid-template-columns:1.3fr 1fr;gap:10px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-top:1px solid var(--linea)}
-  .barra .btn{padding:.85em 1em}
-  @media(max-width:760px){.barra{display:grid}.strip b{font-size:1.1rem}.strip div{padding:18px 14px}section{padding:72px 0}.hero{padding:36px 0 64px}.hero-btns .btn{flex:1 1 0}}
+/* recensioni */
+.voto{display:flex;align-items:center;gap:16px;margin-top:26px;flex-wrap:wrap}
+.voto .num{font-family:var(--serif);font-size:3.4rem;line-height:1}
+.voto .stelle svg{width:19px;height:19px}
+.voto small{display:block;color:var(--mut);font-size:.88rem;margin-top:4px}
+.recensioni{display:grid;gap:14px;margin-top:clamp(34px,5vw,50px)}
+.rec{background:#fff;border:1px solid var(--linea);border-radius:6px;padding:26px 24px 22px;display:flex;flex-direction:column}
+.rec blockquote{font-family:var(--serif);font-size:1.28rem;line-height:1.4;margin-top:14px;flex:1}
+.rec footer{display:flex;align-items:center;gap:12px;margin-top:20px;padding-top:16px;border-top:1px solid var(--linea);font-size:.88rem;color:var(--mut)}
+.rec footer b{color:var(--ink);font-weight:600;display:block}
+.iniz{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font:600 14px/1 var(--sans);color:#fff;flex:none}
+
+/* ordina */
+.ordina{background:var(--notte);color:var(--carta);position:relative;overflow:hidden}
+.ordina .wrap{display:grid;gap:clamp(36px,6vw,80px);position:relative}
+.ordina-foto{position:absolute;inset:0;opacity:.14}
+.ordina-foto img{width:100%;height:100%;object-fit:cover}
+.ordina .contatti{list-style:none;margin-top:30px;display:grid;gap:4px}
+.ordina .contatti a{display:flex;align-items:center;gap:14px;min-height:56px;text-decoration:none;font-size:1.25rem;font-family:var(--serif)}
+.ordina .contatti svg{width:24px;height:24px;color:var(--insegna);flex:none}
+.ordina .contatti small{display:block;font:400 .82rem/1.3 var(--sans);color:rgba(250,246,239,.62)}
+form.modulo{background:var(--carta);color:var(--ink);border-radius:8px;padding:clamp(22px,4vw,36px);box-shadow:0 40px 80px -40px rgba(0,0,0,.6)}
+.modulo h3{font-size:1.75rem}
+.modulo .sotto-t{color:var(--mut);font-size:.93rem;margin-top:6px}
+.modulo .campi{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}
+.campo{display:flex;flex-direction:column;gap:6px;min-width:0}
+.campo.largo{grid-column:1/-1}
+.campo[hidden]{display:none}
+.campo label,.campo legend{font:600 12px/1.2 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
+.campo label i{font-style:normal;text-transform:none;letter-spacing:0;font-weight:400}
+.campo input,.campo select,.campo textarea{font:400 16px/1.3 var(--sans);color:var(--ink);background:#fff;border:1px solid rgba(27,33,38,.22);border-radius:6px;min-height:50px;padding:12px 14px;width:100%;-webkit-appearance:none;appearance:none}
+.campo select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' stroke='%231B2126' stroke-width='1.6'%3E%3Cpath d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:36px}
+.campo textarea{min-height:84px;resize:vertical}
+.campo input:focus,.campo select:focus,.campo textarea:focus{outline:2px solid var(--fucsia);outline-offset:0;border-color:var(--fucsia)}
+.campo .err{border-color:#C0392B;background:#FFF6F5}
+.scelta{border:0;min-width:0}
+.scelta legend{margin-bottom:8px;padding:0}
+.scelta .opz{display:flex;gap:6px;flex-wrap:wrap}
+.scelta label{position:relative}
+.scelta input{position:absolute;opacity:0;width:1px;height:1px}
+.scelta span{display:grid;place-items:center;height:46px;padding:0 16px;border:1px solid rgba(27,33,38,.22);border-radius:6px;background:#fff;font:500 15px/1 var(--sans);cursor:pointer;transition:background .2s,color .2s,border-color .2s;text-transform:none;letter-spacing:0;color:var(--ink)}
+.scelta input:checked+span{background:var(--ink);color:#fff;border-color:var(--ink)}
+.scelta input:focus-visible+span{outline:3px solid var(--fucsia);outline-offset:2px}
+.modulo .btn{width:100%;margin-top:20px}
+.modulo .info{font-size:.84rem;color:var(--mut);margin-top:12px;text-align:center}
+.avviso{font-size:.88rem;color:#A3271B;margin-top:12px;text-align:center;min-height:1.2em}
+
+/* orari e dove */
+.dove .wrap{display:grid;gap:clamp(36px,6vw,80px)}
+.orari{list-style:none;margin-top:28px;border-top:1px solid var(--linea)}
+.orari li{display:flex;justify-content:space-between;gap:16px;padding:13px 10px;border-bottom:1px solid var(--linea);font-size:.98rem}
+.orari li span:last-child{color:var(--mut);text-align:right}
+.orari li.oggi-r{background:rgba(239,198,58,.24);border-radius:4px;font-weight:600}
+.orari li.oggi-r span:last-child{color:var(--ink)}
+.orari li.oggi-r span:first-child::after{content:"oggi";font:600 10px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;background:var(--fucsia);color:#fff;padding:3px 6px;border-radius:3px;margin-left:10px;vertical-align:2px}
+.nota{font-size:.86rem;color:var(--mut);margin-top:14px}
+.come{list-style:none;margin-top:26px;display:grid;gap:12px}
+.come li{display:flex;gap:14px;font-size:.95rem;color:var(--mut)}
+.come svg{width:22px;height:22px;color:var(--fucsia);flex:none;margin-top:1px}
+.come b{color:var(--ink);font-weight:600}
+.come a{font-weight:600;color:var(--ink)}
+.mappa{position:relative;border-radius:6px;overflow:hidden;min-height:420px;background:var(--notte);display:flex;align-items:flex-end}
+.mappa>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.mappa::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,18,23,.1) 20%,rgba(12,18,23,.6) 55%,rgba(12,18,23,.92));z-index:1}
+.mappa .box{position:relative;z-index:2;color:#fff;padding:26px;width:100%}
+.mappa address{font-style:normal;font-family:var(--serif);font-size:1.65rem;line-height:1.2}
+.mappa p{font-size:.92rem;color:rgba(255,255,255,.8);margin:6px 0 18px}
+.mappa .azioni{margin-top:0}
+.mappa iframe{position:absolute;inset:0;width:100%;height:100%;border:0;z-index:3}
+
+/* piede */
+.piede{background:var(--notte);color:rgba(250,246,239,.75);padding:clamp(54px,7vw,84px) 0 calc(36px + env(safe-area-inset-bottom));font-size:.92rem}
+.piede .wrap{display:grid;gap:34px}
+.piede .nome{font-family:var(--serif);font-size:1.7rem;color:var(--carta);line-height:1.1}
+.piede .nome small{display:block;font:600 10px/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--insegna-c);margin-top:8px}
+.piede h3{font:600 11px/1.2 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--insegna-c);margin-bottom:12px}
+.piede ul{list-style:none;display:grid;gap:2px}
+.piede ul a{text-decoration:none;display:inline-flex;min-height:36px;align-items:center;overflow-wrap:anywhere}
+.piede ul a:hover{color:#fff}
+.fine{border-top:1px solid rgba(250,246,239,.14);padding-top:22px;font-size:.8rem;color:rgba(250,246,239,.55);display:flex;flex-wrap:wrap;gap:6px 22px}
+.fine a{color:rgba(250,246,239,.8)}
+
+/* barra rapida su telefono */
+.rapida{position:fixed;left:0;right:0;bottom:0;z-index:40;display:grid;grid-template-columns:1fr 1.35fr 1fr;background:rgba(18,27,34,.96);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);padding:8px 8px calc(8px + env(safe-area-inset-bottom));gap:6px;transform:translateY(110%);transition:transform .35s ease}
+.rapida.su{transform:none}
+.rapida a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-height:52px;color:var(--carta);text-decoration:none;font:500 12px/1 var(--sans);border-radius:8px}
+.rapida a svg{width:20px;height:20px}
+.rapida a.pri{background:var(--wa);font-weight:600;font-size:13px}
+
+/* comparsa */
+.js .rv{opacity:0;transform:translateY(22px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
+.js .rv.in{opacity:1;transform:none}
+
+@media (min-width:640px){
+  .valori ul{grid-template-columns:repeat(3,1fr);gap:28px}
+  .valori li+li{border-top:0}
+  .galleria{grid-template-columns:repeat(3,1fr)}
+  .recensioni{grid-template-columns:repeat(2,1fr)}
+}
+@media (min-width:900px){
+  .menu{display:flex}
+  .occ{grid-template-columns:1fr 1.05fr}
+  .negozio .wrap{grid-template-columns:1.05fr 1fr}
+  .galleria{grid-template-columns:repeat(4,1fr);grid-auto-rows:1fr}
+  .galleria figure:first-child{grid-column:span 2;grid-row:span 2}
+  .galleria figure:first-child img{aspect-ratio:auto}
+  .recensioni{grid-template-columns:repeat(3,1fr)}
+  .ordina .wrap{grid-template-columns:1fr 1.05fr;align-items:center}
+  .dove .wrap{grid-template-columns:1fr 1.15fr;align-items:start}
+  .mappa{min-height:100%}
+  .piede .wrap{grid-template-columns:1.4fr 1fr 1fr 1fr}
+  .fine{grid-column:1/-1}
+  .rapida{display:none}
+}
+@media (max-width:899px){
+  .piede{padding-bottom:calc(110px + env(safe-area-inset-bottom))}
+}
+@media (max-width:480px){
+  .modulo .campi{grid-template-columns:1fr}
+  .logo img{height:42px}
+  .barra .btn{padding:0 16px}
+  .hero .azioni .btn{flex:1 1 100%}
+  .numeri{gap:10px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .js .rv{opacity:1;transform:none}
+}
 </style>
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-stella" viewBox="0 0 20 20"><path fill="currentColor" d="M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6L10 15l-5.4 3 1.2-6L1.3 7.8l6.1-.7z"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 2.9 2.9 0 0 0-.9 2.2 5 5 0 0 0 1.1 2.7 11.5 11.5 0 0 0 4.4 3.9c1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.7-.3z"/></symbol>
+  <symbol id="i-tel" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></g></symbol>
+  <symbol id="i-ok" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21V11"/><path d="M12 11c-3.5 0-6-2.5-6-6 3.5 0 6 2.5 6 6zM12 15c2.8 0 5-2 5-5-2.8 0-5 2-5 5z"/></g></symbol>
+</svg>
 
-<nav>
-  <div class="wrap">
-    <a href="#" class="logo"><img src="img/logo.jpg" alt="L'Angolo dei Fiori" width="400" height="136"></a>
-    <ul>
-      <li><a href="#fiori">Fiori e piante</a></li>
-      <li><a href="#matrimoni">Matrimoni</a></li>
-      <li><a href="#ordina">Come ordinare</a></li>
-      <li><a href="#dove">Dove siamo</a></li>
-    </ul>
-    <a href="https://wa.me/393889966614?text=Buongiorno%2C%20vorrei%20ordinare%20dei%20fiori" class="btn btn-wa nav-wa">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 2.9 2.9 0 0 0-.9 2.2 5 5 0 0 0 1.1 2.7 11.5 11.5 0 0 0 4.4 3.9c1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.7-.3z"/></svg>
-      Ordina</a>
-  </div>
-</nav>
+<a class="salta" href="#contenuto">Salta al contenuto</a>
+<div class="bnw-fascia">Bozza preparata per L'Angolo dei Fiori da La bottega del web. Non ancora online. <a href="https://labottegadelweb.it">labottegadelweb.it</a></div>
 
-<header class="hero">
+<header class="barra">
   <div class="wrap">
-    <div>
-      <div class="badge-24"><span class="p"></span>Aperti 24 ore su 24</div>
-      <h1>Fiori freschi a Palermo, <em>a qualsiasi ora.</em></h1>
-      <p class="lead">Bouquet, piante, composizioni per ogni occasione e allestimenti per matrimoni. Da più di 50 anni in Via Giacomo Leopardi, con consegna a domicilio: ordini anche su WhatsApp.</p>
-      <div class="hero-btns">
-        <a href="https://wa.me/393889966614?text=Buongiorno%2C%20vorrei%20ordinare%20dei%20fiori" class="btn btn-wa">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 2.9 2.9 0 0 0-.9 2.2 5 5 0 0 0 1.1 2.7 11.5 11.5 0 0 0 4.4 3.9c1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.7-.3z"/></svg>
-          Ordina su WhatsApp</a>
-        <a href="tel:+393889966614" class="btn btn-linea">Chiama 388 996 6614</a>
-      </div>
-      <div class="stelle"><b>4,9</b><div><i>★★★★★</i><br>181 recensioni su Google</div></div>
-    </div>
-    <div class="foto-hero">
-      <div class="main"><img src="img/chiosco.jpg" alt="Il chiosco de L'Angolo dei Fiori pieno di fiori freschi in Via Leopardi a Palermo" width="1000" height="996"></div>
-      <div class="mini"><img src="img/bouquet-peonie.jpg" alt="Bouquet di peonie bianche" width="750" height="1000"></div>
-      <div class="tag"><b>Consegna</b>a domicilio a Palermo</div>
-    </div>
+    <a class="logo" href="#" aria-label="L'Angolo dei Fiori, torna su"><img src="img/logo.jpg" alt="L'Angolo dei Fiori" width="400" height="136"></a>
+    <nav aria-label="Principale">
+      <ul class="menu">
+        <li><a href="#occasioni">Fiori e occasioni</a></li>
+        <li><a href="#negozio">Il negozio</a></li>
+        <li><a href="#recensioni">Dicono di noi</a></li>
+        <li><a href="#dove">Dove siamo</a></li>
+      </ul>
+    </nav>
+    <a class="btn" href="#ordina">Ordina i fiori</a>
   </div>
 </header>
 
-<div class="strip">
+<main id="contenuto">
+<section class="hero" aria-labelledby="titolo">
+  <img src="img/chiosco.jpg" width="799" height="796" alt="L'Angolo dei Fiori di sera: l'insegna gialla con il numero di telefono, orchidee, gigli, rose, gerbere e girasoli esposti sul marciapiede" fetchpriority="high">
   <div class="wrap">
-    <div><b>Da più di 50 anni</b><span>un riferimento a Palermo</span></div>
-    <div><b>Aperti 24 ore su 24</b><span>anche di notte e nei festivi</span></div>
-    <div><b>Consegna a domicilio</b><span>ordini al telefono e su WhatsApp</span></div>
-    <div><b>Via Leopardi 23</b><span>angolo Via Mario Rapisardi</span></div>
-  </div>
-</div>
-
-<section id="fiori">
-  <div class="wrap">
-    <p class="eyebrow">Cosa trovi da noi</p>
-    <h2>Un fiore per ogni <em>momento</em></h2>
-    <p class="sub">Fiori freschi recisi e in vaso, piante da appartamento e da esterno, e composizioni preparate da noi per ogni occasione.</p>
-    <div class="grid servizi">
-      <article class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 22v-9"/><path d="M12 13c-3 0-5-2-5-5 3 0 5 2 5 5zM12 13c3 0 5-2 5-5-3 0-5 2-5 5z"/><circle cx="12" cy="6" r="3"/></svg></div><h3>Bouquet e fiori freschi</h3><p>Rose, lilium, girasoli, gerbere e fiori di stagione, sciolti o composti in bouquet.</p></article>
-      <article class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M6 14h12l-1.5 7h-9z"/><path d="M12 14V7M12 10c-2-2-5-2-6 0M12 8c2-2 5-2 6 0"/></svg></div><h3>Piante</h3><p>Piante da appartamento e da esterno: orchidee, azalee, bonsai e molto altro.</p></article>
-      <article class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M20 12v9H4v-9M2 7h20v5H2zM12 21V7M12 7c-2-4-6-4-6-1s6 1 6 1zm0 0c2-4 6-4 6-1s-6 1-6 1z"/></svg></div><h3>Composizioni e regali</h3><p>Composizioni per compleanni, lauree, anniversari e ogni occasione da festeggiare.</p></article>
-      <article class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/></svg></div><h3>Matrimoni e cerimonie</h3><p>Bouquet da sposa, fiori all'occhiello e allestimenti per matrimoni, battesimi ed eventi.</p></article>
-      <article class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3v18M7 8h10"/></svg></div><h3>Addobbi funebri</h3><p>Corone, cuscini e composizioni per commemorazioni, preparati con cura e consegnati in tempo.</p></article>
-      <article class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M5 21h14l-2-9H7z"/><path d="M9 12V8a3 3 0 0 1 6 0v4"/></svg></div><h3>Cura del verde</h3><p>Concimi, fertilizzanti e terricci di tutti i tipi per avere piante sempre belle e in salute.</p></article>
+    <p class="occhiello">Fiorista a Palermo · Via Leopardi</p>
+    <h1 id="titolo">Fiori freschi, <em>a qualsiasi ora</em>.</h1>
+    <p class="sotto">Bouquet, piante, fiori per matrimoni e addobbi funebri. Da più di 50 anni all'angolo tra Via Leopardi e Via Rapisardi, aperti giorno e notte, con consegna a domicilio.</p>
+    <div class="azioni">
+      <a class="btn giallo" href="#ordina">Ordina i fiori</a>
+      <a class="btn vetro" href="tel:+393889966614"><svg aria-hidden="true"><use href="#i-tel"/></svg>Chiama 388 996 6614</a>
+    </div>
+    <div class="sotto-hero">
+      <p class="stato" id="stato" aria-live="polite"><span class="punto" aria-hidden="true"></span><span id="stato-t">Aperti 24 ore su 24, tutti i giorni</span></p>
+      <p class="voto-mini"><b>4,9</b><span class="stelle" aria-hidden="true"><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg></span><span>181 recensioni su Google</span></p>
     </div>
   </div>
 </section>
 
-<section class="matrimoni" id="matrimoni">
+<section class="valori" aria-label="Perché venire da noi">
   <div class="wrap">
-    <div class="mosaico">
-      <img src="img/matrimonio-mare.jpg" alt="Allestimento floreale per un matrimonio in riva al mare" loading="lazy">
-      <img src="img/matrimonio-arco.jpg" alt="Arco di fiori bianchi e blu per una cerimonia" loading="lazy">
-      <img src="img/fiore-occhiello.jpg" alt="Fiore all'occhiello per lo sposo" loading="lazy">
-    </div>
-    <div>
-      <p class="eyebrow">Matrimoni ed eventi</p>
-      <h2>Il giorno più bello, <em>vestito di fiori</em></h2>
-      <p class="sub">Dal bouquet della sposa all'allestimento della cerimonia: ascoltiamo la vostra idea e la trasformiamo in fiori.</p>
-      <ul>
-        <li>Bouquet da sposa e fiori all'occhiello</li>
-        <li>Archi e allestimenti per la cerimonia, anche all'aperto</li>
-        <li>Centrotavola e addobbi per il ricevimento</li>
-        <li>Battesimi, comunioni, anniversari ed eventi</li>
-      </ul>
-      <a href="https://wa.me/393889966614?text=Buongiorno%2C%20vorrei%20informazioni%20per%20i%20fiori%20di%20un%20matrimonio" class="btn btn-wa">Raccontaci il tuo evento</a>
-    </div>
+    <ul>
+      <li class="rv"><svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="17" cy="17" r="13"/><path d="M17 9v8l5 3"/><path d="M5 5l3 3M29 5l-3 3"/></svg><div><b>Aperti 24 ore su 24</b><span>Anche di notte, la domenica e nei festivi: il fiore che serve lo trovi quando serve.</span></div></li>
+      <li class="rv"><svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M17 30V16"/><path d="M17 16c-5 0-8-3.5-8-8.5 5 0 8 3.5 8 8.5zM17 22c4 0 7-3 7-7-4 0-7 3-7 7z"/><path d="M10 30h14"/></svg><div><b>Da più di 50 anni</b><span>Un punto di riferimento per i fiori a Palermo, sempre allo stesso angolo di strada.</span></div></li>
+      <li class="rv"><svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M3 9h17v14H3zM20 14h6l4 5v4h-10"/><circle cx="9" cy="25" r="2.6"/><circle cx="25" cy="25" r="2.6"/></svg><div><b>Consegna a domicilio</b><span>Ordini al telefono o su WhatsApp, portiamo noi i fiori a casa o a chi vuoi tu.</span></div></li>
+    </ul>
   </div>
 </section>
 
-<section>
+<section class="sez" id="occasioni" aria-labelledby="t-occ">
   <div class="wrap">
-    <p class="eyebrow">Piante</p>
-    <h2>Il verde giusto <em>per casa tua</em></h2>
-    <div class="grid piante">
-      <div class="pianta"><img src="img/orchidee.jpg" alt="Orchidee in vaso" loading="lazy"><div><b>Orchidee</b><span>eleganti e facili da curare</span></div></div>
-      <div class="pianta"><img src="img/azalea.jpg" alt="Azalea in fiore" loading="lazy"><div><b>Azalee</b><span>un regalo pieno di colore</span></div></div>
-      <div class="pianta"><img src="img/bonsai.jpg" alt="Bonsai di ficus" loading="lazy"><div><b>Bonsai</b><span>per chi ama il verde</span></div></div>
-      <div class="pianta"><img src="img/ardisia.jpg" alt="Ardisia con bacche rosse" loading="lazy"><div><b>Ardisia</b><span>con le sue bacche rosse</span></div></div>
-    </div>
-  </div>
-</section>
+    <p class="occhiello rv">Fiori e occasioni</p>
+    <h2 id="t-occ" class="rv">Dicci l'occasione, <em>al resto pensiamo noi</em>.</h2>
+    <p class="intro rv">Fiori freschi recisi e in vaso, piante e composizioni preparate in negozio. Scegli il momento che devi festeggiare (o ricordare) e scrivici: ti consigliamo i fiori più belli del giorno.</p>
 
-<section id="ordina" style="padding-top:0">
-  <div class="wrap">
-    <div class="ordina">
-      <div>
-        <p class="eyebrow" style="color:#fff">Come ordinare</p>
-        <h2>Ordinare è facile, <em>anche da lontano</em></h2>
-        <p class="sub">Scrivici su WhatsApp o chiamaci a qualsiasi ora: prepariamo i fiori e li consegniamo a domicilio, oppure li ritiri tu in Via Leopardi.</p>
-        <a href="https://wa.me/393889966614?text=Buongiorno%2C%20vorrei%20ordinare%20dei%20fiori" class="btn btn-giallo" style="margin-top:26px">Scrivici su WhatsApp</a>
+    <div class="schede" role="tablist" aria-label="Occasioni">
+      <button role="tab" id="s-bou" aria-controls="p-bou" aria-selected="true"><svg aria-hidden="true"><use href="#i-ok"/></svg>Bouquet e regali</button>
+      <button role="tab" id="s-mat" aria-controls="p-mat" aria-selected="false" tabindex="-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 20s-7-4.3-7-9.6A4 4 0 0 1 12 8a4 4 0 0 1 7 2.4C19 15.7 12 20 12 20z"/></svg>Matrimoni e cerimonie</button>
+      <button role="tab" id="s-pia" aria-controls="p-pia" aria-selected="false" tabindex="-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 14h12l-1.5 7h-9z"/><path d="M12 14V7M12 10c-2-2-5-2-6 0M12 8c2-2 5-2 6 0"/></svg>Piante</button>
+      <button role="tab" id="s-lut" aria-controls="p-lut" aria-selected="false" tabindex="-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg>Addobbi funebri</button>
+      <button role="tab" id="s-con" aria-controls="p-con" aria-selected="false" tabindex="-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 7h12v10H2zM14 10h4l3 4v3h-7"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg>Consegna a domicilio</button>
+    </div>
+
+    <div class="pannello" role="tabpanel" id="p-bou" aria-labelledby="s-bou" tabindex="0">
+      <div class="occ">
+        <div class="occ-foto">
+          <img src="img/bouquet-peonie.jpg" width="600" height="800" alt="Bouquet di peonie bianche con eucalipto, incartato" loading="lazy">
+          <img src="img/azalea.jpg" width="799" height="533" alt="Azalea rosa in vaso con carta lilla e fiocco" loading="lazy">
+        </div>
+        <div class="testo">
+          <h3>Un mazzo che <em>dice le cose giuste</em></h3>
+          <p>Compleanni, lauree, anniversari, una nascita, un grazie o una scusa. Rose, lilium, girasoli, gerbere e i fiori di stagione, sciolti o composti in bouquet.</p>
+          <ul class="voci">
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg><div><b>Bouquet di fiori freschi</b><span>Composti al momento con i fiori del giorno, nei colori che preferisci.</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg><div><b>Composizioni e regali</b><span>Per compleanni, lauree, anniversari e ogni occasione da festeggiare.</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg><div><b>Un messaggio per il biglietto</b><span>Scrivilo nell'ordine insieme all'occasione e ai colori.</span></div></li>
+          </ul>
+          <div class="azioni"><a class="btn" href="#ordina" data-occ="Bouquet o regalo">Ordina un bouquet</a></div>
+        </div>
       </div>
-      <ol class="passi">
-        <li><div><b>Scrivici o chiamaci</b><span>Dicci l'occasione, i colori che preferisci e il budget. Puoi mandarci anche una foto d'ispirazione.</span></div></li>
-        <li><div><b>Ti consigliamo noi</b><span>Ti proponiamo i fiori più belli del giorno e ti diciamo il prezzo prima di preparare.</span></div></li>
-        <li><div><b>Consegna o ritiro</b><span>Consegniamo a domicilio a Palermo, oppure passi a ritirare quando vuoi: siamo aperti 24 ore su 24.</span></div></li>
-      </ol>
+    </div>
+
+    <div class="pannello" role="tabpanel" id="p-mat" aria-labelledby="s-mat" tabindex="0" hidden>
+      <div class="occ">
+        <div class="occ-foto">
+          <img src="img/fiore-occhiello.jpg" width="600" height="800" alt="Fiore all'occhiello con spighe sulla giacca blu dello sposo" loading="lazy">
+          <img src="img/matrimonio-arco.jpg" width="800" height="600" alt="Arco di ortensie blu e fiori bianchi all'ingresso della navata" loading="lazy">
+        </div>
+        <div class="testo">
+          <h3>Il giorno più bello, <em>vestito di fiori</em></h3>
+          <p>Dal bouquet della sposa all'allestimento della cerimonia, anche in riva al mare: ci raccontate l'idea, noi la trasformiamo in fiori.</p>
+          <ul class="voci">
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg><div><b>Bouquet da sposa e fiori all'occhiello</b><span>Coordinati tra loro, nei colori del vostro matrimonio.</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg><div><b>Archi e allestimenti per la cerimonia</b><span>In chiesa, in sala o all'aperto.</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg><div><b>Centrotavola e addobbi per il ricevimento</b><span>Per la sala e per i tavoli degli invitati.</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg><div><b>Battesimi, comunioni, anniversari ed eventi</b><span>Fiori per ogni cerimonia di famiglia.</span></div></li>
+          </ul>
+          <div class="azioni"><a class="btn" href="#ordina" data-occ="Matrimonio o cerimonia">Raccontaci il tuo evento</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pannello" role="tabpanel" id="p-pia" aria-labelledby="s-pia" tabindex="0" hidden>
+      <div class="occ">
+        <div class="occ-foto bianco">
+          <img src="img/orchidee.jpg" width="799" height="675" alt="Tre orchidee phalaenopsis in vaso, bianca, rosa e fucsia" loading="lazy">
+          <img src="img/bonsai.jpg" width="799" height="695" alt="Bonsai di ficus in vaso di ceramica bianca" loading="lazy">
+        </div>
+        <div class="testo">
+          <h3>Il verde giusto <em>per casa tua</em></h3>
+          <p>Piante da appartamento e da esterno, da tenere o da regalare. E tutto quello che serve per farle stare bene.</p>
+          <ul class="voci">
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg><div><b>Orchidee</b><span>Eleganti e facili da curare, in tanti colori.</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg><div><b>Azalee, bonsai, ardisie</b><span>Piante fiorite e verdi, da appartamento e da esterno.</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg><div><b>Cura del verde</b><span>Concimi, fertilizzanti e terricci di tutti i tipi.</span></div></li>
+          </ul>
+          <div class="azioni"><a class="btn" href="#ordina" data-occ="Pianta">Chiedi una pianta</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pannello" role="tabpanel" id="p-lut" aria-labelledby="s-lut" tabindex="0" hidden>
+      <div class="occ">
+        <div class="lutto">
+          <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><circle cx="20" cy="20" r="15"/><circle cx="20" cy="20" r="8"/><path d="M20 5v7M20 28v7M5 20h7M28 20h7"/></svg>
+          <p>Nei momenti difficili basta una telefonata. Siamo aperti anche di notte.</p>
+          <span>Prepariamo e consegniamo noi, in tempo per la funzione.</span>
+        </div>
+        <div class="testo">
+          <h3>Un ultimo saluto, <em>con rispetto</em></h3>
+          <p>Corone, cuscini e composizioni per commemorazioni, preparati in negozio da chi fa questo lavoro da più di 50 anni.</p>
+          <ul class="voci">
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg><div><b>Corone e cuscini</b><span>Preparati con cura e consegnati in tempo.</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg><div><b>Composizioni per commemorazioni</b><span>Per ricordare chi non c'è più.</span></div></li>
+            <li><svg aria-hidden="true"><use href="#i-ok"/></svg><div><b>La dedica</b><span>Indicaci il testo quando ordini.</span></div></li>
+          </ul>
+          <div class="azioni"><a class="btn" href="tel:+393889966614"><svg aria-hidden="true"><use href="#i-tel"/></svg>Chiama 388 996 6614</a><a class="btn vuoto" href="#ordina" data-occ="Addobbo funebre">Scrivi la richiesta</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pannello" role="tabpanel" id="p-con" aria-labelledby="s-con" tabindex="0" hidden>
+      <div class="occ">
+        <div class="occ-foto una">
+          <img src="img/bouquet-sposa.jpg" width="798" height="600" alt="Bouquet con orchidee blu e rose bianche appoggiato su un tavolo apparecchiato" loading="lazy">
+        </div>
+        <div class="testo">
+          <h3>Ordinare è facile, <em>anche da lontano</em></h3>
+          <p>Ci scrivi su WhatsApp o ci chiami a qualsiasi ora: prepariamo i fiori e li consegniamo a domicilio, oppure passi a ritirarli tu in Via Leopardi.</p>
+          <ol class="passi">
+            <li><div><b>Scrivici o chiamaci</b><span>Dicci l'occasione, i colori che preferisci e il budget. Puoi mandarci anche una foto d'ispirazione.</span></div></li>
+            <li><div><b>Ti consigliamo noi</b><span>Ti proponiamo i fiori più belli del giorno e ti diciamo il prezzo prima di preparare.</span></div></li>
+            <li><div><b>Consegna o ritiro</b><span>Consegniamo a domicilio, oppure passi a ritirare quando vuoi: siamo aperti 24 ore su 24.</span></div></li>
+          </ol>
+          <div class="azioni"><a class="btn" href="#ordina" data-occ="">Compila l'ordine</a></div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<section style="padding-top:0">
+<section class="sez negozio" id="negozio" aria-labelledby="t-neg">
   <div class="wrap">
-    <p class="eyebrow">Recensioni</p>
-    <div class="voto"><h2 style="margin:0">Cosa dicono <em>i nostri clienti</em></h2></div>
-    <div class="voto" style="margin-top:14px"><b>4,9</b><div><span style="color:#E8A800;letter-spacing:.1em">★★★★★</span><br><span style="color:var(--grigio);font-size:.92rem">181 recensioni su Google</span></div></div>
-    <div class="grid recensioni">
-      <figure class="rec"><div class="st">★★★★★</div><blockquote>Ottima esperienza e buon gusto per quanto riguarda le composizioni. Persone alla mano e gentili.</blockquote><figcaption><b>Simone Rizza</b> · Google</figcaption></figure>
-      <figure class="rec"><div class="st">★★★★★</div><blockquote>Preciso, disponibile e puntuale.</blockquote><figcaption><b>Luigia Ciarnelli</b> · Google</figcaption></figure>
-      <figure class="rec"><div class="st">★★★★★</div><blockquote>Gentilezza, disponibilità e cortesia.</blockquote><figcaption><b>Alessandro Macale</b> · Google</figcaption></figure>
+    <div class="foto-doppia rv">
+      <figure><img src="img/matrimonio-mare.jpg" width="798" height="600" alt="Allestimento floreale per un matrimonio all'aperto, con il mare sullo sfondo" loading="lazy"></figure>
+      <figure><img src="img/fiore-occhiello.jpg" width="600" height="800" alt="Fiore all'occhiello per lo sposo" loading="lazy"></figure>
+    </div>
+    <div>
+      <p class="occhiello rv">Il negozio</p>
+      <h2 id="t-neg" class="rv">Lo stesso angolo di Palermo, <em>da mezzo secolo</em>.</h2>
+      <p class="intro rv">L'Angolo dei Fiori è in Via Giacomo Leopardi 23, all'angolo con Via Mario Rapisardi. Da più di cinquant'anni chi passa trova l'insegna gialla accesa e i fiori esposti fuori, di giorno e di notte. Dentro e fuori, rose, lilium, orchidee, girasoli e piante: per un regalo dell'ultimo minuto, per un matrimonio preparato da mesi, per un saluto che non si può rimandare.</p>
+      <div class="numeri rv">
+        <div><b>50+</b><span>anni di attività a Palermo</span></div>
+        <div><b>24/7</b><span>aperti tutti i giorni, anche di notte</span></div>
+        <div><b>4,9</b><span>su 181 recensioni Google</span></div>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="dove" id="dove" style="background:var(--carta)">
+<section class="sez" aria-labelledby="t-gal">
+  <div class="wrap">
+    <p class="occhiello rv">I nostri lavori</p>
+    <h2 id="t-gal" class="rv">Bouquet, archi, <em>piccoli dettagli</em>.</h2>
+    <div class="galleria">
+      <figure class="rv"><img src="img/matrimonio-mare.jpg" width="798" height="600" alt="Allestimento per una cerimonia in riva al mare con sedie bianche e composizioni di fiori" loading="lazy"><figcaption>Matrimonio sul mare</figcaption></figure>
+      <figure class="rv"><img src="img/bouquet-sposa.jpg" width="798" height="600" alt="Bouquet di orchidee blu e rose bianche" loading="lazy"><figcaption>Orchidee blu e rose</figcaption></figure>
+      <figure class="rv"><img src="img/matrimonio-arco.jpg" width="800" height="600" alt="Arco di ortensie blu per la cerimonia" loading="lazy"><figcaption>Arco per la cerimonia</figcaption></figure>
+      <figure class="rv"><img src="img/bouquet-peonie.jpg" width="600" height="800" alt="Bouquet di peonie bianche" loading="lazy" style="object-position:50% 60%"><figcaption>Peonie bianche</figcaption></figure>
+      <figure class="rv"><img src="img/ardisia.jpg" width="799" height="695" alt="Ardisia con bacche rosse in vaso" loading="lazy" style="object-fit:contain;background:#fff"><figcaption>Ardisia</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sez" id="recensioni" aria-labelledby="t-rec" style="padding-top:0">
+  <div class="wrap">
+    <p class="occhiello rv">Dicono di noi</p>
+    <h2 id="t-rec" class="rv">Gentili, puntuali, <em>e con buon gusto</em>.</h2>
+    <div class="voto rv">
+      <span class="num">4,9</span>
+      <div><div class="stelle" role="img" aria-label="4,9 stelle su 5"><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg></div>
+      <small>Media di 181 recensioni su Google</small></div>
+    </div>
+    <div class="recensioni">
+      <figure class="rec rv">
+        <div class="stelle" role="img" aria-label="5 stelle su 5"><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg></div>
+        <blockquote>«Ottima esperienza e buon gusto per quanto riguarda le composizioni. Persone alla mano e gentili.»</blockquote>
+        <footer><span class="iniz" style="background:#B3305E" aria-hidden="true">SR</span><span><b>Simone R.</b>Recensione su Google</span></footer>
+      </figure>
+      <figure class="rec rv">
+        <div class="stelle" role="img" aria-label="5 stelle su 5"><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg></div>
+        <blockquote>«Preciso, disponibile e puntuale.»</blockquote>
+        <footer><span class="iniz" style="background:#3F6B45" aria-hidden="true">LC</span><span><b>Luigia C.</b>Recensione su Google</span></footer>
+      </figure>
+      <figure class="rec rv">
+        <div class="stelle" role="img" aria-label="5 stelle su 5"><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg><svg><use href="#i-stella"/></svg></div>
+        <blockquote>«Gentilezza, disponibilità e cortesia.»</blockquote>
+        <footer><span class="iniz" style="background:#121B22" aria-hidden="true">AM</span><span><b>Alessandro M.</b>Recensione su Google</span></footer>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="sez ordina scuro" id="ordina" aria-labelledby="t-ord">
+  <div class="ordina-foto" aria-hidden="true"><img src="img/chiosco.jpg" alt="" loading="lazy"></div>
   <div class="wrap">
     <div>
-      <p class="eyebrow">Dove siamo</p>
-      <h2>Vieni a trovarci, <em>giorno e notte</em></h2>
-      <div class="riga"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><div><b>Indirizzo</b><a href="https://maps.google.com/?q=Via+Giacomo+Leopardi+23+90144+Palermo">Via Giacomo Leopardi 23, 90144 Palermo</a><br><span style="color:var(--grigio);font-size:.92rem">angolo Via Mario Rapisardi, di fronte al distributore IP</span></div></div>
-      <div class="riga"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><b>Orari</b>Aperti 24 ore su 24, tutti i giorni</div></div>
-      <div class="riga"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><div><b>Telefono e WhatsApp</b><a href="tel:+393889966614">388 996 6614</a></div></div>
-      <div class="hero-btns" style="margin-top:26px"><a class="btn btn-wa" href="https://wa.me/393889966614?text=Buongiorno%2C%20vorrei%20ordinare%20dei%20fiori">WhatsApp</a><a class="btn btn-linea" href="https://maps.google.com/?q=Via+Giacomo+Leopardi+23+90144+Palermo">Apri la mappa</a></div>
+      <p class="occhiello rv">Ordina</p>
+      <h2 id="t-ord" class="rv">Scegli tu i fiori, <em>li portiamo noi</em>.</h2>
+      <p class="intro rv">Compila l'ordine: si apre WhatsApp con il messaggio già scritto, tu lo invii e ti rispondiamo con la proposta e il prezzo. Per le cose urgenti, chiama: rispondiamo a qualsiasi ora.</p>
+      <ul class="contatti rv">
+        <li><a href="tel:+393889966614"><svg aria-hidden="true"><use href="#i-tel"/></svg><span>388 996 6614<small>Chiama, giorno e notte</small></span></a></li>
+        <li><a href="https://wa.me/393889966614?text=Buongiorno%2C%20vorrei%20ordinare%20dei%20fiori" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-wa"/></svg><span>WhatsApp 388 996 6614<small>Chiama o scrivi su WhatsApp</small></span></a></li>
+        <li><a href="#dove"><svg aria-hidden="true"><use href="#i-pin"/></svg><span>Via Giacomo Leopardi 23<small>angolo Via Mario Rapisardi, Palermo</small></span></a></li>
+      </ul>
     </div>
-    <img src="img/bouquet-sposa.jpg" alt="Bouquet con orchidee blu e rose bianche" loading="lazy">
+    <form class="modulo rv" id="modulo" novalidate>
+      <h3>Il tuo ordine</h3>
+      <p class="sotto-t">Nessun pagamento online: ti confermiamo tutto noi.</p>
+      <div class="campi">
+        <div class="campo largo"><label for="f-occ">Occasione</label>
+          <select id="f-occ" name="occasione">
+            <option>Bouquet o regalo</option>
+            <option>Compleanno, laurea o anniversario</option>
+            <option>Matrimonio o cerimonia</option>
+            <option>Pianta</option>
+            <option>Addobbo funebre</option>
+            <option>Altro</option>
+          </select></div>
+        <div class="campo"><label for="f-data">Per quando</label><input type="date" id="f-data" name="data" required></div>
+        <fieldset class="campo scelta">
+          <legend>Consegna</legend>
+          <div class="opz">
+            <label><input type="radio" name="modo" value="consegna" checked><span>A domicilio</span></label>
+            <label><input type="radio" name="modo" value="ritiro"><span>Ritiro</span></label>
+          </div>
+        </fieldset>
+        <div class="campo largo" id="c-ind"><label for="f-ind">Indirizzo di consegna</label><input type="text" id="f-ind" name="indirizzo" autocomplete="street-address" placeholder="Via, numero civico, città"></div>
+        <div class="campo largo"><label for="f-big">Messaggio per il biglietto <i>(facoltativo)</i></label><textarea id="f-big" name="biglietto" placeholder="Es. Tanti auguri, mamma!"></textarea></div>
+        <div class="campo largo"><label for="f-idea">Fiori, colori, budget <i>(facoltativo)</i></label><input type="text" id="f-idea" name="idea" placeholder="Es. rose rosse, sui toni del bianco…"></div>
+        <div class="campo largo"><label for="f-nome">Il tuo nome</label><input type="text" id="f-nome" name="nome" autocomplete="name" required></div>
+      </div>
+      <button class="btn wa" type="submit"><svg aria-hidden="true"><use href="#i-wa"/></svg>Invia l'ordine su WhatsApp</button>
+      <p class="avviso" id="avviso" role="alert"></p>
+      <p class="info">Preferisci parlare? Chiama il <a href="tel:+393889966614">388 996 6614</a>.</p>
+    </form>
   </div>
 </section>
 
-<footer>
+<section class="sez dove" id="dove" aria-labelledby="t-dove">
   <div class="wrap">
-    <div><b>L'Angolo dei Fiori</b><br>Via Giacomo Leopardi 23, 90144 Palermo · P. IVA 06701820828</div>
-    <div>Fiorista a Palermo · aperto 24 ore su 24</div>
+    <div>
+      <p class="occhiello rv">Orari e dove</p>
+      <h2 id="t-dove" class="rv">Vieni a trovarci, <em>giorno e notte</em>.</h2>
+      <ul class="orari rv" id="ore">
+        <li data-g="1"><span>Lunedì</span><span>Aperto 24 ore</span></li>
+        <li data-g="2"><span>Martedì</span><span>Aperto 24 ore</span></li>
+        <li data-g="3"><span>Mercoledì</span><span>Aperto 24 ore</span></li>
+        <li data-g="4"><span>Giovedì</span><span>Aperto 24 ore</span></li>
+        <li data-g="5"><span>Venerdì</span><span>Aperto 24 ore</span></li>
+        <li data-g="6"><span>Sabato</span><span>Aperto 24 ore</span></li>
+        <li data-g="0"><span>Domenica</span><span>Aperto 24 ore</span></li>
+      </ul>
+      <p class="nota">Aperti tutti i giorni, festivi compresi.</p>
+      <ul class="come rv">
+        <li><svg aria-hidden="true"><use href="#i-pin"/></svg><span><b>Dove:</b> Via Giacomo Leopardi 23, 90144 Palermo, all'angolo con Via Mario Rapisardi.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 17h14l-1.5-6.5A2 2 0 0 0 15.6 9H8.4a2 2 0 0 0-1.9 1.5z"/><circle cx="8" cy="17" r="2"/><circle cx="16" cy="17" r="2"/></svg><span><b>Come riconoscerci:</b> di fronte al distributore IP, sotto l'insegna gialla.</span></li>
+        <li><svg aria-hidden="true"><use href="#i-tel"/></svg><span><b>Telefono e WhatsApp:</b> <a href="tel:+393889966614">388 996 6614</a></span></li>
+      </ul>
+    </div>
+    <div class="mappa rv" id="mappa">
+      <img src="img/chiosco.jpg" width="799" height="796" alt="L'insegna de L'Angolo dei Fiori illuminata di sera" loading="lazy">
+      <div class="box">
+        <address>Via Giacomo Leopardi 23<br>90144 Palermo</address>
+        <p>Angolo Via Mario Rapisardi · di fronte al distributore IP</p>
+        <div class="azioni">
+          <button class="btn giallo" type="button" id="apri-mappa"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg>Mostra la mappa</button>
+          <a class="btn vetro" href="https://www.google.com/maps/search/?api=1&amp;query=Via+Giacomo+Leopardi+23+90144+Palermo" target="_blank" rel="noopener">Indicazioni</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="piede">
+  <div class="wrap">
+    <div>
+      <p class="nome">L'Angolo dei Fiori<small>Fiorista a Palermo · aperto 24 ore su 24</small></p>
+      <p style="margin-top:16px;max-width:26em">Bouquet, piante, fiori per matrimoni e addobbi funebri, con consegna a domicilio. Da più di 50 anni in Via Leopardi.</p>
+    </div>
+    <div>
+      <h3>Contatti</h3>
+      <ul>
+        <li><a href="tel:+393889966614">388 996 6614</a></li>
+        <li><a href="https://wa.me/393889966614?text=Buongiorno%2C%20vorrei%20ordinare%20dei%20fiori" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="mailto:salvoprocida594@gmail.com">salvoprocida594@gmail.com</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Orari</h3>
+      <ul>
+        <li><span>Tutti i giorni</span></li>
+        <li><span>24 ore su 24</span></li>
+        <li><span>Anche nei festivi</span></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Pagina</h3>
+      <ul>
+        <li><a href="#occasioni">Fiori e occasioni</a></li>
+        <li><a href="#ordina">Ordina i fiori</a></li>
+        <li><a href="#dove">Dove siamo</a></li>
+      </ul>
+    </div>
+    <p class="fine"><span>L'Angolo dei Fiori · Via Giacomo Leopardi 23, 90144 Palermo · P. IVA 06701820828</span><span>Bozza di <a href="https://labottegadelweb.it">La bottega del web</a>, non ancora online.</span></p>
   </div>
 </footer>
 
-<div class="barra">
-  <a href="https://wa.me/393889966614?text=Buongiorno%2C%20vorrei%20ordinare%20dei%20fiori" class="btn btn-wa">Ordina su WhatsApp</a>
-  <a href="tel:+393889966614" class="btn btn-linea">Chiama</a>
-</div>
+<nav class="rapida" id="rapida" aria-label="Azioni rapide">
+  <a href="tel:+393889966614"><svg aria-hidden="true"><use href="#i-tel"/></svg>Chiama</a>
+  <a class="pri" href="https://wa.me/393889966614?text=Buongiorno%2C%20vorrei%20ordinare%20dei%20fiori" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
+  <a href="#dove"><svg aria-hidden="true"><use href="#i-pin"/></svg>Dove siamo</a>
+</nav>
+
+<script>
+(function(){
+  var NUM="393889966614";
+  var ora=new Date(),g=ora.getDay();
+  var nomi=["domenica","lunedì","martedì","mercoledì","giovedì","venerdì","sabato"];
+
+  /* orari veri: aperti 24 ore su 24, tutti i giorni. Stato e riga di oggi */
+  var li=document.querySelector('#ore li[data-g="'+g+'"]');if(li)li.className="oggi-r";
+  var st=document.getElementById("stato");st.classList.add("aperto");
+  document.getElementById("stato-t").innerHTML="<b>Aperto ora</b> · "+nomi[g]+", 24 ore su 24";
+
+  /* schede delle occasioni */
+  var tabs=[].slice.call(document.querySelectorAll('[role="tab"]'));
+  function sel(t,foc){tabs.forEach(function(x){var on=x===t;x.setAttribute("aria-selected",on);x.tabIndex=on?0:-1;
+    document.getElementById(x.getAttribute("aria-controls")).hidden=!on});if(foc)t.focus();
+    var s=t.parentNode;s.scrollLeft=Math.max(0,t.offsetLeft-s.clientWidth/2+t.offsetWidth/2)}
+  tabs.forEach(function(t,i){t.addEventListener("click",function(){sel(t)});
+    t.addEventListener("keydown",function(e){var n=null;if(e.key==="ArrowRight")n=tabs[(i+1)%tabs.length];
+      if(e.key==="ArrowLeft")n=tabs[(i-1+tabs.length)%tabs.length];if(e.key==="Home")n=tabs[0];if(e.key==="End")n=tabs[tabs.length-1];
+      if(n){e.preventDefault();sel(n,true)}})});
+
+  /* i pulsanti delle schede preimpostano l'occasione nel modulo */
+  var fo=document.getElementById("f-occ");
+  [].forEach.call(document.querySelectorAll("[data-occ]"),function(a){a.addEventListener("click",function(){var v=a.getAttribute("data-occ");if(v)fo.value=v})});
+
+  /* modulo: consegna o ritiro, data minima oggi, apre WhatsApp col messaggio */
+  var fd=document.getElementById("f-data"),ci=document.getElementById("c-ind"),fi=document.getElementById("f-ind"),av=document.getElementById("avviso");
+  function iso(d){return d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2)+"-"+("0"+d.getDate()).slice(-2)}
+  fd.min=iso(ora);fd.value=iso(ora);
+  function modo(){return document.querySelector('input[name="modo"]:checked').value}
+  [].forEach.call(document.querySelectorAll('input[name="modo"]'),function(r){r.addEventListener("change",function(){ci.hidden=modo()!=="consegna"})});
+  function dataIt(v){var p=v.split("-");var d=new Date(+p[0],+p[1]-1,+p[2]);return nomi[d.getDay()]+" "+(+p[2])+"/"+(+p[1])+"/"+p[0]}
+  document.getElementById("modulo").addEventListener("submit",function(e){e.preventDefault();
+    var f=this,nome=f.nome.value.trim(),ind=fi.value.trim(),err=[];
+    [f.nome,fd,fi].forEach(function(x){x.classList.remove("err")});
+    if(!fd.value){err.push("la data");fd.classList.add("err")}
+    if(modo()==="consegna"&&!ind){err.push("l'indirizzo di consegna");fi.classList.add("err")}
+    if(!nome){err.push("il tuo nome");f.nome.classList.add("err")}
+    if(err.length){av.textContent=(err.length>1?"Mancano ":"Manca ")+(err.length>1?err.slice(0,-1).join(", ")+" e "+err[err.length-1]:err[0])+".";f.querySelector(".err").focus();return}
+    av.textContent="";
+    var r=["Buongiorno, vorrei ordinare dei fiori.","","Occasione: "+fo.value,"Per: "+dataIt(fd.value),
+      modo()==="consegna"?"Consegna a domicilio: "+ind:"Ritiro in negozio, Via Leopardi"];
+    if(f.idea.value.trim())r.push("Fiori, colori, budget: "+f.idea.value.trim());
+    if(f.biglietto.value.trim())r.push("Messaggio per il biglietto: “"+f.biglietto.value.trim()+"”");
+    r.push("","Nome: "+nome);
+    window.open("https://wa.me/"+NUM+"?text="+encodeURIComponent(r.join("\n")),"_blank","noopener")});
+
+  /* mappa caricata solo su richiesta */
+  document.getElementById("apri-mappa").addEventListener("click",function(){var f=document.createElement("iframe");
+    f.title="Mappa: Via Giacomo Leopardi 23, Palermo";f.loading="lazy";f.referrerPolicy="no-referrer-when-downgrade";
+    f.src="https://www.google.com/maps?q=Via+Giacomo+Leopardi+23,+90144+Palermo&z=16&output=embed";document.getElementById("mappa").appendChild(f)});
+
+  /* barra rapida su telefono, dopo l'hero */
+  var r=document.getElementById("rapida"),h=document.querySelector(".hero");
+  if("IntersectionObserver" in window){new IntersectionObserver(function(es){r.classList.toggle("su",!es[0].isIntersecting)},{threshold:.15}).observe(h)}else r.classList.add("su");
+
+  /* comparsa allo scorrimento */
+  var rv=document.querySelectorAll(".rv");
+  if(!("IntersectionObserver" in window)){for(var j=0;j<rv.length;j++)rv[j].classList.add("in");return}
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{rootMargin:"0px 0px -6% 0px"});
+  for(var k=0;k<rv.length;k++)io.observe(rv[k]);
+})();
+</script>
 </body>
 </html>
